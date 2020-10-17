@@ -4,14 +4,16 @@ import Auth from "../screens/Auth";
 import Profile from "../screens/Profile";
 import BirdLibrary from "../screens/BirdLibrary";
 import CaptureBird from "../screens/CaptureBird";
+import SideNavPage from "components/SideMenu";
 
 export const RoutingService = () => {
   return (
     <BrowserRouter>
+      <SideNavPage />
       <Switch>
         <Route exact path="/">
           <Auth />
-          <Link to="/profile">link</Link> <Link to="/capture">link</Link>{" "}
+          <Link to="/profile">link</Link> <Link to="/capture">link</Link>
           <Link to="/library">link</Link>
         </Route>
         <Route exact path="/profile">
