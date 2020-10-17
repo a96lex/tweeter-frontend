@@ -1,5 +1,5 @@
 import React, { Profiler } from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Switch, Route, BrowserRouter, Link } from "react-router-dom";
 import Auth from "../screens/Auth";
 import Profile from "../screens/Profile";
 import BirdLibrary from "../screens/BirdLibrary";
@@ -11,6 +11,8 @@ export const RoutingService = () => {
       <Switch>
         <Route exact path="/">
           <Auth />
+          <Link to="/profile">link</Link> <Link to="/capture">link</Link>{" "}
+          <Link to="/library">link</Link>
         </Route>
         <Route exact path="/profile">
           <Profile />
