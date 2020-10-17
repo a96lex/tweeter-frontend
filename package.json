@@ -11,6 +11,8 @@
     "mdbreact": "^4.27.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-html5-camera-photo": "^1.5.4",
+    "react-pro-sidebar": "^0.4.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
